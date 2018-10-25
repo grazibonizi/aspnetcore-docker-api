@@ -1,8 +1,0 @@
-version: '3'
-
-services:
-  aspnetcore.docker.api:
-    image: aspnetcoredockerapi
-    build:
-      context: .
-      dockerfile: AspNetCore.Docker.API/Dockerfile
